@@ -91,7 +91,7 @@ def networkLib():
     if len(libios[1]) != 0:
         try:
             urlretrieve(
-                "https://github.com/Impact-I/reFlutter/releases/download/ios-"
+                "https://github.com/RealCalumPlays/reFlutter-Patched/releases/download/ios-"
                 + verUrl
                 + libios[1]
                 + "/Flutter",
@@ -103,7 +103,7 @@ def networkLib():
     if len(libAppArm64[1]) != 0:
         try:
             urlretrieve(
-                "https://github.com/Impact-I/reFlutter/releases/download/android-"
+                "https://github.com/RealCalumPlays/reFlutter-Patched/releases/download/android-"
                 + verUrl
                 + libAppArm64[1]
                 + "/libflutter_arm64.so",
@@ -115,7 +115,7 @@ def networkLib():
     if len(libAppArm[1]) != 0:
         try:
             urlretrieve(
-                "https://github.com/Impact-I/reFlutter/releases/download/android-"
+                "https://github.com/RealCalumPlays/reFlutter-Patched/releases/download/android-"
                 + verUrl
                 + libAppArm[1]
                 + "/libflutter_arm.so",
@@ -127,7 +127,7 @@ def networkLib():
     if len(libAppX64[1]) != 0:
         try:
             urlretrieve(
-                "https://github.com/Impact-I/reFlutter/releases/download/android-"
+                "https://github.com/RealCalumPlays/reFlutter-Patched/releases/download/android-"
                 + verUrl
                 + libAppX64[1]
                 + "/libflutter_x64.so",
@@ -139,7 +139,7 @@ def networkLib():
     if len(libAppX86[1]) != 0:
         try:
             urlretrieve(
-                "https://github.com/Impact-I/reFlutter/releases/download/android-"
+                "https://github.com/RealCalumPlays/reFlutter-Patched/releases/download/android-"
                 + verUrl
                 + libAppX86[1]
                 + "/libflutter_x86.so",
